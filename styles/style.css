@@ -33,3 +33,17 @@ header{
     width: 600px;
     background-color: blueviolet;
 }
+
+.contenitore-centrato{
+    text-align: center;
+    /* width: 700px; */
+    border: 1px solid black;
+
+}
+
+.piano-dropbox{
+    height: 750px;
+    width: 300px;
+    background-color: red;
+    border: 1px solid black;
+}
