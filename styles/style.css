@@ -35,15 +35,20 @@ header{
 }
 
 .contenitore-centrato{
-    text-align: center;
-    /* width: 700px; */
+    /* text-align: center; */
+    width: 700px;
     border: 1px solid black;
+    margin: 0 auto;
 
 }
 
 .piano-dropbox{
     height: 750px;
-    width: 300px;
+    width: 700px;
     background-color: red;
     border: 1px solid black;
+}
+
+h2{
+    text-align: center;
 }
