@@ -64,12 +64,11 @@ header{
 
 .operazioni-dropbox{
     width: calc(100% / 3);
-    /* background-color: magenta; */
     border: 1px solid black;
 
 }
 
-.contenitore-operazioni{
+section.operazioni-dropbox section{
     width: 100%;
 }
 
