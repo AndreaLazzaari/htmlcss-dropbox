@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+/* Selettori tag unici */
 header{
     height: 80px;
     border: 2px solid black;
@@ -14,6 +15,12 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+/* #domande{
+    height: 100%;
+    margin: 0 auto;
+} */
+
+/* Selettori Flex */
 .flex{
     display: flex;
 }
@@ -26,6 +33,11 @@ body{
 .flex-wrap{
     flex-wrap: wrap;
 }
+
+.flex-between{
+    justify-content: space-between;
+}
+
 
 .jumbo{
     height: 550px;
@@ -49,7 +61,6 @@ body{
     width: 700px;
     border: 1px solid black;
     margin: 0 auto;
-    /* margin-top: 3em; */
 }
 
 .piano-dropbox{
@@ -106,11 +117,25 @@ section.operazioni-dropbox section{
     border: 1px solid black;
 }
 
-.prova-gratuita{
+.contenitore-prova-gratuita{
     height: 300px;
     background-color: #b4d0e7;
 }
 
-.bottone-prova{
-    display: inline-block;
+.prova-gratuita{
+    padding-top: 9em;
 }
+
+.contenitore-domande{
+    height: 500px;
+}
+
+#domande h2{
+    padding-top: 7em;
+    padding-bottom: 1.6em;
+}
+
+.sezione-domanda{
+    padding: 2em 0em;
+}
+
