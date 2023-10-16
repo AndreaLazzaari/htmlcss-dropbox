@@ -84,3 +84,20 @@ section.operazioni-dropbox section{
     width: 100%;
 
 }
+
+.contenitore-design{
+    height: 500px;
+    background-color: lightpink;
+}
+
+.quadrato{
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+}
+
+.quadrato-grande{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+}
