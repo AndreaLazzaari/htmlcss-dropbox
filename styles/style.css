@@ -12,8 +12,15 @@ header{
 
 .flex{
     display: flex;
+}
+
+.flex-centrato{
     justify-content: center;
     align-content: center;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
 }
 
 .jumbo{
@@ -35,11 +42,10 @@ header{
 }
 
 .contenitore-centrato{
-    /* text-align: center; */
     width: 700px;
     border: 1px solid black;
     margin: 0 auto;
-
+    /* margin-top: 3em; */
 }
 
 .piano-dropbox{
@@ -49,6 +55,33 @@ header{
     border: 1px solid black;
 }
 
-h2{
-    text-align: center;
+.scelta-personalizzata{
+    width: 700px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: lime;
+}
+
+.operazioni-dropbox{
+    width: calc(100% / 3);
+    /* background-color: magenta; */
+    border: 1px solid black;
+
+}
+
+.contenitore-operazioni{
+    width: 100%;
+}
+
+.img-operazione{
+    height: 100px;
+    background-color: magenta;
+    width: 100%;
+}
+
+.operazione{
+    height: 200px;
+    background-color: aqua;
+    width: 100%;
+
 }
