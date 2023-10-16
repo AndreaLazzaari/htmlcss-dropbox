@@ -5,3 +5,31 @@
     box-sizing: border-box;
 }
 
+header{
+    height: 80px;
+    border: 2px solid black;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.jumbo{
+    height: 550px;
+    background-color: #b4d0e7;
+    text-align: center;
+}
+
+.spiegazione-img{
+    height: 450px;
+    width: 400px;
+    background-color: blue;
+}
+
+.img-informativa{
+    height: 450px;
+    width: 600px;
+    background-color: blueviolet;
+}
