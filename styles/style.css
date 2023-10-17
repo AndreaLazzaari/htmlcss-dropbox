@@ -53,9 +53,7 @@ p{
     bottom: 80px;
 }
 
-span{
-    
-}
+
 
 /* Selettori Flex */
 .flex{
@@ -132,6 +130,16 @@ span{
     margin: 0 auto;
     margin-top: 9.5em;
 }
+
+section.contenitore-centrato span{
+    margin: 0em 7em 0em 0em;
+}
+
+.card-business{
+    margin-top: 2.5em;
+}
+
+
 
 /* 6 section */
 .piano-dropbox{
