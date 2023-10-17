@@ -137,6 +137,12 @@ header section.navigazione nav.dati ul li{
     /* margin-top: 9.5em; */
 }
 /* Trova il business */
+.piano-dropbox{
+    /* background-color: red; */
+    border: 1px solid black;
+    margin-right: 1.5em;
+
+}
 
 .check-marker{
     color: #69adff;
@@ -174,14 +180,7 @@ section.contenitore-centrato span{
     /* width: calc(100% / 3)-1.5em; */
 }
 
-.piano-dropbox{
-    height: 750px;
-    width: 800px;
-    /* background-color: red; */
-    border: 1px solid black;
-    margin-right: 1.5em;
 
-}
 
 article{
     /* margin-right: 1.5em; */
