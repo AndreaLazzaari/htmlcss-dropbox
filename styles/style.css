@@ -81,8 +81,13 @@ p{
 }
 
 /* Bottoni pagina */
+
 .bottone{
+    background-color: #0061ff;
     color: white;
+    border: none;
+    padding: .8em;
+    text-align: center;
 }
 
 
@@ -103,13 +108,7 @@ p{
     position: relative;
 }
 
-.bottone-prova-gratuita{
-    background-color: #0061ff;
-    color: white;
-    border: none;
-    padding: .8em;
-    text-align: center;
-}
+
 
 .img-informativa{
     width: 70%;
@@ -196,6 +195,17 @@ section.operazioni-dropbox section{
     background-color: aqua;
     width: 100%;
 
+}
+
+/* Prova gratuita */
+.bottone-bianco{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+section.img-informativa img{
+    width: 100%;
 }
 
 /* Main 9 quadrati */
