@@ -9,7 +9,6 @@
 header{
     height: 80px;
     padding-top: 1.5em;
-    /* border: 2px solid black; */
 }
 
 body{
@@ -24,27 +23,38 @@ footer{
 
 ul{
     list-style-type: none;
-    /* border: 1px solid black; */
-    /* width: 500px; */
-    /* height: 100%; */
-
 }
 
 li{
-    /* border: 1px solid black; */
-    /* width: 110px; */
-    /* height: 100%; */
     padding: 0 0.5em;
 }
 
 h1{
     font-size: 4em;
     font-weight: 900;
-    
+    padding-bottom: .5em;
 }
+
+h2{
+    font-weight: 900;
+    font-size: 1.75em;
+    padding-bottom: 1.35em;
+}
+
 p{
     font-size: .8em;
     line-height: 1.4em;
+}
+
+#freccia{
+    font-weight: bolder;
+    font-size: 2.5em;
+    position: absolute;
+    bottom: 80px;
+}
+
+span{
+    
 }
 
 /* Selettori Flex */
@@ -72,6 +82,7 @@ p{
     text-align: center;
 }
 
+/* Bottoni pagina */
 .bottone{
     color: white;
 }
@@ -79,38 +90,47 @@ p{
 
 /* Jumbo */
 .jumbo{
-    /* height: 550px; */
     background-color: #b4d0e7;
-    /* text-align: center; */
 }
 
 .contenitore-grande{
     margin: 0 auto;
     max-width: 950px;
-    padding-top: 5em;
+    position: relative;
+    top: 70px;
 }
 
 .spiegazione-img{
-    /* height: 450px; */
     width: 30%;
-    /* background-color: blue; */
+    position: relative;
+}
+
+.bottone-prova-gratuita{
+    background-color: #0061ff;
+    color: white;
+    border: none;
+    padding: .8em;
+    text-align: center;
 }
 
 .img-informativa{
-    /* height: 450px; */
     width: 70%;
-    /* background-color: blueviolet; */
 }
 
 .img-informativa img{
     width: 100%;
 }
 
+.bottone-prova-gratuita-jumbo{
+    margin: 2em 0;
+}
+
 /* Contenitore generale */
 .contenitore-centrato{
     width: 700px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 0 auto;
+    margin-top: 9.5em;
 }
 
 /* 6 section */
