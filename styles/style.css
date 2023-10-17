@@ -8,7 +8,8 @@
 /* Selettori tag unici */
 header{
     height: 80px;
-    border: 2px solid black;
+    padding-top: 1.5em;
+    /* border: 2px solid black; */
 }
 
 body{
@@ -30,13 +31,16 @@ ul{
 }
 
 li{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* width: 110px; */
     height: 100%;
+    padding: 0 0.5em;
 }
 
-nav{
-    height: 100%;
+h1{
+    font-size: 4em;
+    font-weight: 900;
+    
 }
 
 /* Selettori Flex */
@@ -69,23 +73,33 @@ nav{
     text-align: center;
 }
 
+.bottone{
+    color: white;
+}
+
 
 /* Jumbo */
 .jumbo{
-    height: 550px;
+    /* height: 550px; */
     background-color: #b4d0e7;
-    text-align: center;
+    /* text-align: center; */
+}
+
+.contenitore-grande{
+    margin: 0 auto;
+    max-width: 950px;
+    padding-top: 5em;
 }
 
 .spiegazione-img{
     height: 450px;
-    width: 400px;
+    width: 30%;
     background-color: blue;
 }
 
 .img-informativa{
     height: 450px;
-    width: 600px;
+    width: 70%;
     background-color: blueviolet;
 }
 
