@@ -143,6 +143,7 @@ section.contenitore-centrato span{
 
 .card-business{
     margin-top: 2.5em;
+    /* width: calc(100% / 3)-1.5em; */
 }
 
 .piano-dropbox{
@@ -150,11 +151,12 @@ section.contenitore-centrato span{
     width: 800px;
     background-color: red;
     border: 1px solid black;
+    margin-right: 1.5em;
 
 }
 
 article{
-    margin-right: 1.5em;
+    /* margin-right: 1.5em; */
 }
 
 .piano-dropbox-icona{
@@ -170,6 +172,7 @@ article{
     height: 150px;
     border: 1px solid black;
     background-color: lime;
+    margin-right: 1.5em;
 }
 
 .operazioni-dropbox{
