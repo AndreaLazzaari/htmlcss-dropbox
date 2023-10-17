@@ -25,10 +25,6 @@ ul{
     list-style-type: none;
 }
 
-li{
-    padding: 0 0.5em;
-}
-
 h1{
     font-size: 4em;
     font-weight: 900;
@@ -53,7 +49,14 @@ p{
     bottom: 80px;
 }
 
+i{
+    margin-right: .5em;
+}
 
+h4{
+    margin-left: 1.4em;
+    margin-bottom: 1.6em;
+}
 
 /* Selettori Flex */
 .flex{
@@ -78,6 +81,10 @@ p{
     background-color: #0061ff;
     width: 4em;
     text-align: center;
+}
+
+header section.navigazione nav.dati ul li{
+    padding: 0 0.5em;
 }
 
 /* Bottoni pagina */
@@ -129,6 +136,28 @@ p{
     margin: 0 auto;
     /* margin-top: 9.5em; */
 }
+/* Trova il business */
+
+.check-marker{
+    color: #69adff;
+}
+
+.piano-business{
+    padding: 1.5em;
+}
+
+.bottoni-piano-business{
+    margin: 2.3em 0;
+}
+
+div.card-business article.piano-dropbox section.piano-business div ul li{
+    margin: .8em 0;
+}
+
+section.punti-salienti div{
+    padding-left: 1.2em;
+    padding-bottom: 1.5em
+}
 
 /* 6 section */
 .contenitore-article{
@@ -148,7 +177,7 @@ section.contenitore-centrato span{
 .piano-dropbox{
     height: 750px;
     width: 800px;
-    background-color: red;
+    /* background-color: red; */
     border: 1px solid black;
     margin-right: 1.5em;
 
