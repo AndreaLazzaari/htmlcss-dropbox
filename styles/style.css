@@ -263,7 +263,7 @@ section.img-informativa img{
 }
 
 /* Main 9 quadrati */
-.contenitore-design{
+/* .contenitore-design{
     height: 500px;
     background-color: lightpink;
 }
@@ -278,7 +278,62 @@ section.img-informativa img{
     height: 500px;
     width: calc(100% - 500px);
     border: 1px solid black;
+} */
+
+.quadrato-terzine{
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+    border: 2px solid black;
 }
+
+.clienti{
+    width: 50%;
+    height: 50%;
+    /* display: flex; */
+}
+
+.clienti img{
+    width: 50%;
+    margin: auto;
+}
+
+/* Classi bg per quadrati */
+.bg-verde{
+    background-color: #a2d39b;
+}
+.bg-marrone{
+    background-color: #61082b;
+
+}
+.bg-azzurro{
+    background-color: #0093ce;
+
+}
+.bg-rosso{
+    background-color: #ff1c1c;
+
+}
+.bg-rosa{
+    background-color: #f5f5f5;
+
+}
+.bg-rosso-scuro{
+    background-color: #d5001f;
+
+}
+.bg-celeste{
+    background-color: #b4d0e7;
+
+}
+.bg-blu{
+    background-color: #0d2481;
+
+}
+.bg-giallo{
+    background-color: #ffd830;
+
+}
+
 
 /* Prova gratuita */
 .contenitore-prova-gratuita{
