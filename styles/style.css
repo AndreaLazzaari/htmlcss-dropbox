@@ -159,6 +159,10 @@ header section.navigazione nav.dati ul li{
 }
 
 /* Trova il business */
+.contenitore-article{
+    margin-top: 7em;
+}
+
 .piano-dropbox{
     /* background-color: red; */
     border: 1px solid black;
@@ -239,16 +243,15 @@ section.operazioni-dropbox div.img-operazione img{
     width: 100%;
 }
 
-.operazione{
-    /* height: 200px; */
-    /* background-color: aqua; */
-    /* width: 100%; */
-
-}
-
 div.operazione > h3{
     margin: .7em 0 1.5em 0;
 }
+
+/* link e h2*/
+div.link-users{
+    margin: 5em 0 5em 0;
+}
+
 
 /* Prova gratuita */
 
