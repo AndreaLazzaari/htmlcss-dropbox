@@ -227,9 +227,9 @@ section.contenitore-centrato span{
 
 
 .operazioni-dropbox{
-    width: calc(100% / 3);
-    border: 1px solid black;
-
+    width: calc((100% / 3) - 1em);
+    /* border: 1px solid black; */
+    margin: 0 0.5em 2.5em 0.5em;
 }
 
 section.operazioni-dropbox section{
@@ -240,10 +240,14 @@ section.operazioni-dropbox div.img-operazione img{
 }
 
 .operazione{
-    height: 200px;
-    background-color: aqua;
-    width: 100%;
+    /* height: 200px; */
+    /* background-color: aqua; */
+    /* width: 100%; */
 
+}
+
+div.operazione > h3{
+    margin: .7em 0 1.5em 0;
 }
 
 /* Prova gratuita */
