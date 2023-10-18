@@ -118,12 +118,23 @@ header section.navigazione nav.dati ul li{
     border: 1px solid black;
 }
 
+.bottone-header{
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    padding: 0;
+}
+
 .bottone-prova-gratuita-jumbo{
     margin: 2em 0;
 }
 
 .larghezza-b{
     width: 200px;
+}
+
+.bottone-professional{
+    margin-top: 4em;
 }
 
 
