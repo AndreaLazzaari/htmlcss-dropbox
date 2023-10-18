@@ -295,6 +295,17 @@ section.img-informativa img{
 .clienti img{
     width: 50%;
     margin: auto;
+    filter: invert(1);
+}
+
+.quadrato-grande img{
+    width: 50%;
+    margin: .8em 0 1.2em 1.8em;
+}
+
+.p-design{
+    font-size: .6em;
+    margin: 0 2.5em 0 2.5em;
 }
 
 /* Classi bg per quadrati */
