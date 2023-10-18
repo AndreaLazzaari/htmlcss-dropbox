@@ -224,13 +224,8 @@ section.punti-salienti div{
 
 .contenitore-partner{
     height: 400px;
-    padding: 5em 0 5em 0;
-
+    margin: 8em 0 8em 0;
 }
-
-/* .img-partner{
-    height: 200px;
-} */
 
 .img-partner img{
     height: 100%;
@@ -238,9 +233,12 @@ section.punti-salienti div{
 
 .trova-partner{
     height: 100%;
+    padding: 4em 0em 0em 3em;
 }
 
-
+section.trova-partner p{
+    padding: 1.2em 0 1.5em 0px;
+}
 
 /* 6 section */
 section.contenitore-centrato span{
