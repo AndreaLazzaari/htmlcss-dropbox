@@ -118,6 +118,14 @@ header section.navigazione nav.dati ul li{
     border: 1px solid black;
 }
 
+.bottone-prova-gratuita-jumbo{
+    margin: 2em 0;
+}
+
+.larghezza-b{
+    width: 200px;
+}
+
 
 /* Jumbo */
 .jumbo{
@@ -140,10 +148,6 @@ header section.navigazione nav.dati ul li{
 
 .img-informativa img{
     width: 100%;
-}
-
-.bottone-prova-gratuita-jumbo{
-    margin: 2em 0;
 }
 
 /* Contenitore generale */
@@ -345,6 +349,14 @@ div.link-users{
 
 .prova-gratuita{
     padding-top: 9em;
+}
+
+section.prova-gratuita section h2{
+    color: #61082b;
+}
+
+section.prova-gratuita section button{
+    border: none;
 }
 
 /* Main domande */
