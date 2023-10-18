@@ -132,10 +132,7 @@ header section.navigazione nav.dati ul li{
 
 .spiegazione-img{
     width: 30%;
-    position: relative;
 }
-
-
 
 .img-informativa{
     width: 70%;
@@ -215,13 +212,32 @@ section.punti-salienti div{
 }
 
 .relative p{
-    margin-left: 1.2em;
-    margin-top: 2em;
+    /* margin-left: 1.2em; */
+    /* margin-top: 2em; */
 }
 
 /* 2 section sotto jumbo */
-.img-partner{
-    
+.partner{
+    margin: auto;
+    width: 800px;
+}
+
+.contenitore-partner{
+    height: 400px;
+    padding: 5em 0 5em 0;
+
+}
+
+/* .img-partner{
+    height: 200px;
+} */
+
+.img-partner img{
+    height: 100%;
+}
+
+.trova-partner{
+    height: 100%;
 }
 
 
