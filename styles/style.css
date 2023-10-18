@@ -127,7 +127,6 @@ header section.navigazione nav.dati ul li{
 .contenitore-grande{
     margin: 0 auto;
     max-width: 950px;
-    position: relative;
     top: 70px;
 }
 
@@ -153,9 +152,7 @@ header section.navigazione nav.dati ul li{
 /* Contenitore generale */
 .contenitore-centrato{
     width: 800px;
-    /* border: 1px solid black; */
     margin: 0 auto;
-    /* margin-top: 9.5em; */
 }
 
 /* Trova il business */
@@ -164,7 +161,6 @@ header section.navigazione nav.dati ul li{
 }
 
 .piano-dropbox{
-    /* background-color: red; */
     border: 1px solid black;
     margin-right: 1.5em;
 
@@ -193,7 +189,6 @@ section.punti-salienti div{
 
 .scelta-personalizzata{
     border: 1px solid black;
-    /* background-color: lime; */
     margin-top: 3em;
 }
 
@@ -352,4 +347,18 @@ div.link-users{
 
 .sezione-domanda span{
     font-weight: 999;
+}
+
+/* Footer */
+.footer-display{
+    padding-top: 4.5em;
+    padding-left: 1.5em;
+}
+
+.footer-display h3{
+    margin: 1em 0 1em 0;
+}
+
+footer nav ul li{
+    padding: .4em 0 .4em 0;
 }
